@@ -1,0 +1,57 @@
+body {
+    /*En CSS los comentarios se poenen de esta manera :)*/
+
+    /*Tipografía*/
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* Interlineado */
+    line-height: 1.5; 
+}
+
+header {
+    background-color: #018a68;
+    color: #FFF; 
+    /* text-align solo funciona en contenidos en bloque*/
+    text-align: center;  
+}
+
+footer {
+    background-color:#dae0df
+}
+
+.menu {
+    list-style: none;
+    font-size: 16px;
+    background-color: #018a68; 
+}
+
+.enlace {
+    text-decoration:none;
+    color: #FFF;  
+    font-weight: bold;
+}
+
+.enlace:hover {
+    color: #9fd4c6; 
+}
+
+.subtitulo {
+    color: #018a68;
+    font-style: oblique;
+
+}
+
+/* El seleetor de ID se utiliza para elementos únicos */
+#titulo {
+    font-style: oblique;
+}
+
+.boton {
+    background-color: #018a68;
+    border-bottom:0cm; 
+    border-radius: 5px;
+    color: #FFF;
+}
+
+.boton:hover {
+    background-color: #9fd4c6;
+}
