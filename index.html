@@ -73,6 +73,30 @@
             <span class = "box inline-block">Soy un display de tipo inline</span>
             <span class = "box inline-block">Soy un display de tipo inline</span>
             <span class = "box inline-block">Soy un display de tipo inline</span>
+        </section>
+
+        <section>
+            <h2 class = "subtitulo">El box model en acción</h2>
+            <p>El box model afecta el estado y diseño de cada elemento según su display. </p>
+                <h3 class = "subtitulo">Display: block</h3>
+                <p>Cada elemento de tipo block ocupa todo el ancho de su contenedor. </p>
+                <div class = "box block model">Bloque 1</div>
+                <div class = "box block model">Bloque 2</div>
+
+                <h3 class = "subtitulo">Display: inline</h3>
+                <p>Cada elemento de tipo inline ocupa solo el ancho necesario.</p>
+                <p>El margin horizontal funciona, pero el margin vertical no afecta el flujo del documento,
+                    decir, se ignoran estas propiedades.
+                </p>
+                <span class = "box inline model">Bloque 1</span>
+                <span class = "box inline model">Bloque 2</span>
+
+                <h3 class = "subtitulo">Display: inline-block</h3>
+                <p>Los elementos inline-block se alinean horizontalmente como inline pero permiten usar 
+                    padding, border y margin como con un elemento de tipo block.
+                </p>
+                <span class = "box inline-block model">Bloque 1</span>
+                <span class = "box inline-block model">Bloque 2</span>
 
         </section>
     </main>

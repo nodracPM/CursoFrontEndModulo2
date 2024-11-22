@@ -96,5 +96,12 @@ section{
 .inline-block { 
     display: inline-block;
     width: 150px;
-    height: 50px;
+    height: 20px;
+}
+
+.model {
+    padding: 20px; 
+    border: 10px solid #D5D5D5;
+    margin: 20px;  
+
 }
