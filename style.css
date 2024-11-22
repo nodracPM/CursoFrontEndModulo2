@@ -70,7 +70,7 @@ section{
 }
 
 .box{
-    background: #51DFB0;    
+    background: #C5F6E5;    
     border: 1px solid #D5D5D5; 
     border-radius: 15px; 
     padding: 15px; 
@@ -82,6 +82,13 @@ section{
 
 .block {
     display: block;
+    width: 150px;
+    height: 50px;
+}
+
+.inline {
+    display: inline;
+    /* width y height son ignorados porque el display inline no acepta propiedades de tamaño */
     width: 150px;
     height: 50px;
 }
