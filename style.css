@@ -1,17 +1,21 @@
 body {
     /*En CSS los comentarios se poenen de esta manera :)*/
 
+    /* Resete */
     /*Tipografía*/
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background: #F4F6F4;
     /* Interlineado */
     line-height: 1.5; 
 }
 
 header {
-    background-color: #018a68;
+    background: #005C55; 
     color: #FFF; 
-    /* text-align solo funciona en contenidos en bloque*/
-    text-align: center;  
+    text-align: center;
+    padding: 20px;
 }
 
 footer {
@@ -24,28 +28,28 @@ footer {
     background-color: #018a68; 
 }
 
-.enlace {
+.enlace{
     text-decoration:none;
     color: #FFF;  
     font-weight: bold;
 }
 
-.enlace:hover {
+.enlace:hover{
     color: #9fd4c6; 
 }
 
-.subtitulo {
+.subtitulo{
     color: #018a68;
     font-style: oblique;
 
 }
 
 /* El seleetor de ID se utiliza para elementos únicos */
-#titulo {
-    font-style: oblique;
+#titulo{
+    font-family: cursive;
 }
 
-.boton {
+.boton{
     background-color: #018a68;
     border-bottom:0cm; 
     border-radius: 5px;
@@ -54,4 +58,30 @@ footer {
 
 .boton:hover {
     background-color: #9fd4c6;
+}
+
+section{
+    /* Los valores para la propiedad border son tres: grosor de la linea, estilo y color */
+    border: 1px solid #D5D5D5; 
+    background: #FFF; 
+    border-radius: 15px;
+    padding: 20px; 
+    margin: 20px;
+}
+
+.box{
+    background: #51DFB0;    
+    border: 1px solid #D5D5D5; 
+    border-radius: 15px; 
+    padding: 15px; 
+    /*  El valor auto se utiliza para centrar un elemento. Esta manera de centrar los elementos 
+    solo aplica de manera horizontal*/
+    margin: 15px auto; 
+    text-align: center; 
+}
+
+.block {
+    display: block;
+    width: 150px;
+    height: 50px;
 }
